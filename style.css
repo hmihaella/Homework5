@@ -1,0 +1,123 @@
+body {
+  background-image: radial-gradient(rgb(51, 165, 144), #e3e8e9);
+  font-family: "Times New Roman", Times, serif;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.menu {
+  display: grid;
+  grid-template: "acasă servicii contact";
+  justify-content: end;
+  text-transform: lowercase;
+  gap: 2rem;
+  margin-block-start: 1rem;
+}
+
+h2 {
+  color: black;
+}
+
+.content1 {
+  background-color: #e2f7f3;
+  border-radius: 1rem;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  margin-block-start: 2rem;
+  margin-block-end: 2rem;
+  width: 130ch;
+  padding: 1rem 2rem;
+  min-height: calc(100vh - 0.4rem);
+  box-sizing: border-box;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: black;
+  border-inline-end: 0.4rem solid black;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+}
+
+.menu-item.active {
+  background-color: rgb(219, 123, 123);
+}
+
+.content2 {
+  background-color: #e2f7f3;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  margin-block-start: 4rem;
+  margin-block-end: auto;
+  padding: 3rem;
+  box-sizing: content-box;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  width: 25rem;
+  height: 20rem;
+  padding: 2rem;
+  position: relative;
+  top: -18rem;
+  right: -33rem;
+}
+
+.content3 {
+  box-sizing: border-box;
+  background-color: rgba(226, 247, 243, 0.801);
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  margin-block-start: -15rem;
+  margin-block-end: auto;
+  width: 120ch;
+  padding: 1rem;
+  border-color: black;
+  border-style: solid;
+  letter-spacing: 0.1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.link {
+  background-color: #0e46adec;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  width: 15ch;
+  height: 1ch;
+  padding: 0.5rem;
+  border: 1rem solid transparent;
+  border-radius: 2rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-block-start: 2rem;
+  margin-block-end: 0rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  margin: 0rem;
+  width: 19rem;
+  height: 4rem;
+}
+
+.text {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  margin: 0rem;
+  width: 19rem;
+  height: 4rem;
+}
